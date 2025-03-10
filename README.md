@@ -24,3 +24,27 @@ For this example, you will be using the transformers library, which is an open-s
     python3 -m pip install transformers==4.30.2 torch
 
 Wait a few minutes to install the packages.
+
+## Create the back-end server with Flask
+Step 1: Install Flask
+```
+python3.11 -m pip install flask
+python3.11 -m pip install flask_cors
+```
+Step 2: Setting the enviroment. Create a script called app.py
+```
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return 'Hello, World!'
+
+if __name__ == '__main__':
+    app.run()
+```
+Step 3: Execute the python file
+`python3.11 app.py`
+
+Step 4: Check the server at localhost:5000
