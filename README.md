@@ -16,6 +16,7 @@ Wait a few minutes to install the packages.
 To create a new Python file, Click on File Explorer, then right-click in the explorer area and select New File. Name this new file chatbot.py.
 ## Connect github repository
 Step 1. Create a Github repo.
+
 Step 2: Terminal:
 ```
 git config --global user.email "email@example.com"
