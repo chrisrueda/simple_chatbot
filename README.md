@@ -14,3 +14,10 @@ For this example, you will be using the transformers library, which is an open-s
 
 Wait a few minutes to install the packages.
 To create a new Python file, Click on File Explorer, then right-click in the explorer area and select New File. Name this new file chatbot.py.
+## Connect github repository
+Step 1. Create a Github repo.
+Step 2: Terminal:
+        git config --global user.email "email@example.com"
+        git config --global user.name "Your Github User Name"
+        git remote set-url origin https://christianrueda:GENERATED_TOKEN@github.com/chrisrueda/REPOSITORY_NAME.git
+
