@@ -17,7 +17,9 @@ To create a new Python file, Click on File Explorer, then right-click in the exp
 ## Connect github repository
 Step 1. Create a Github repo.
 Step 2: Terminal:
-    git config --global user.email "email@example.com"
+
+```git config --global user.email "email@example.com"
     git config --global user.name "Your Github User Name"
     git remote set-url origin https://christianrueda:GENERATED_TOKEN@github.com/chrisrueda/REPOSITORY_NAME.git
+```
 
